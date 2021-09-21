@@ -3,10 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PlantypesComponent } from './plantypes/plantypes.component';
+
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlantypesComponent
   ],
   imports: [
     BrowserModule,
