@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PlantypesComponent } from './plantypes/plantypes.component';
+import { WorkouttypesComponent } from './workouttypes/workouttypes.component';
+import { MealComponent } from './meal/meal.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -11,7 +14,10 @@ import { PlantypesComponent } from './plantypes/plantypes.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PlantypesComponent
+    PlantypesComponent,
+    WorkouttypesComponent,
+    MealComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
